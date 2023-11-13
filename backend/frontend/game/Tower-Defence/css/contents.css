@@ -1,0 +1,109 @@
+.main-info .temp-image-wrapper {
+  width: 100%;
+}
+.main-info .temp-image {
+  position: fixed;
+  width: 100%;
+  height: 600px;
+}
+.first-main-contents {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../img/main.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 0px 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first-main-contents h1 {
+  margin-bottom: 15px;
+  transition: all 1.5s;
+}
+.first-main-contents p {
+  transition: all 1s;
+}
+
+/* second-main-contents */
+.second-main-contents {
+  height: 600px;
+  background-color: aqua;
+  display: flex;
+  padding: 25px 80px;
+}
+.second-main-contents .second-main-contents-text-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second-main-contents .second-main-contents-text-wrapper h1 {
+  transition: all 1.5s;
+}
+.second-main-contents .second-main-contents-text-wrapper p {
+  font-size: 16px;
+  margin-top: 15px;
+  transition: all 1s;
+}
+.second-main-contents .game-box-wrapper-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second-main-contents .game-box-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-bottom: 15px;
+}
+.second-main-contents .game-box {
+  background-color: white;
+  margin-right: 15px;
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+}
+.second-main-contents .game-box:hover {
+  scale: 1.05;
+}
+
+/* third-contents */
+.third-main-contents-container {
+  padding: 50px 100px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+}
+.third-main-contents-wrapper {
+  flex: 1;
+}
+.third-main-contents-wrapper h1 {
+  transition: all 1.2s;
+}
+
+/* fourth-contents */
+.fourth-main-contents-container {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+}
+.fourth-main-image-wrapper {
+  flex: 2;
+}
+.fourth-main-image-wrapper img {
+  width: 650px;
+  height: 300px;
+}
+.fourth-main-contents-wrapper {
+  flex: 1;
+}
+.fourth-main-contents-wrapper h1 {
+  transition: all 1s;
+}
+.fourth-main-contents-wrapper p {
+  transition: all 1.5s;
+}

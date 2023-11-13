@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <%- include('includes/style') %>
+    <link rel="stylesheet" href="css/board/boardPost.css" />
+  </head>
+  <body>
+    <!-- login -->
+    <%- include('includes/login') %>
+
+    <!-- navbar -->
+    <%- include('includes/nav') %>
+    <div id="contents-position">
+      <div class="post-wrapper">
+        <div id="post-title-container">
+          <h2 id="post-title"></h2>
+          <div>
+            <span id="post-user-id"></span>
+            <span id="post-date"></span>
+          </div>
+        </div>
+        <div id="post-contents-container">
+          <p id="post-contents"></p>
+        </div>
+        <div id="post-button-container">
+          <a href="/board"><button>목록</button></a>
+          <div id="post-user-button">
+            <button id="update-button">수정</button>
+            <button id="delete-button">삭제</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <%- include('includes/js') %>
+    <script src="js/board/getPost.js"></script>
+    <script src="js/board/userButton.js"></script>
+  </body>
+</html>

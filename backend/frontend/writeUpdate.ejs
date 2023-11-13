@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <%- include('includes/style') %>
+    <link rel="stylesheet" href="css/write.css" />
+  </head>
+  <body>
+    <!-- login -->
+    <%- include('includes/login') %>
+
+    <!-- navbar -->
+    <%- include('includes/nav') %>
+
+    <div id="contents-position">
+      <div id="write-container">
+        <div>
+          <div class="input-wrapper">
+            <div>
+              <label for="update-title-input">제목</label>
+            </div>
+            <input type="text" name="update-title" id="update-title-input" />
+          </div>
+          <div class="input-wrapper">
+            <div>
+              <label for="update-contents-input">내용</label>
+            </div>
+            <textarea rows="20" cols="100" name="update-contents" id="update-contents-input"></textarea>
+          </div>
+          <button id="update-write-button">등록</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <%- include('includes/js') %>
+    <script src="js/board/writeUpdate.js"></script>
+  </body>
+</html>

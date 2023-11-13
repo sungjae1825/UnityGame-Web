@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <%- include('includes/style') %>
+  </head>
+  <body>
+    <!-- login-form -->
+    <%- include('includes/login') %>
+
+    <!-- navbar -->
+    <%- include('includes/nav') %>
+
+    <section>
+      <!-- 네비게이션바 위치에 따른 컨텐츠 위치 조정 -->
+      <div id="contents-position">
+        <div class="main-info">
+          <article class="first-main-contents">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nostrum. Cumque inventore nulla tempora molestias atque ex quo, voluptatum
+              praesentium voluptates voluptas temporibus. Corporis voluptatum maxime doloremque? Qui, magnam eius.
+            </p>
+          </article>
+
+          <article class="second-main-contents">
+            <div class="second-main-contents-text-wrapper">
+              <h1>Lorem ipsum dolor sit.</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sequi libero maxime minima? Ab eligendi dolores, expedita consectetur veritatis
+                fugit itaque animi iusto deleniti, cumque quas suscipit maiores explicabo qui!
+              </p>
+            </div>
+            <div class="game-box-wrapper-container">
+              <div class="game-box-wrapper">
+                <a href="/packman">
+                  <div class="game-box">
+                    <div class="game-box-packman-game-image game-box-image-set"></div>
+                    <div class="game-box-text">팩맨</div>
+                  </div></a
+                ><a href="/quiz">
+                  <div class="game-box">
+                    <div class="game-box-quiz-game-image game-box-image-set"></div>
+                    <div class="game-box-text">퀴즈</div>
+                  </div></a
+                ><a href="/escape">
+                  <div class="game-box">
+                    <div class="game-box-escape-game-image game-box-image-set"></div>
+                    <div class="game-box-text">방탈출</div>
+                  </div></a
+                ><a href="/tekken">
+                  <div class="game-box">
+                    <div class="game-box-tekken-game-image game-box-image-set"></div>
+                    <div class="game-box-text">철권</div>
+                  </div></a
+                >
+              </div>
+              <div class="game-box-wrapper">
+                <a href="/tower-defence">
+                  <div class="game-box">
+                    <div class="game-box-tower_defence-game-image game-box-image-set"></div>
+                    <div class="game-box-text">타워디펜스</div>
+                  </div></a
+                >
+                <div class="game-box">
+                  <div class="game-box-bubble_bubble-game-image game-box-image-set"></div>
+                  <div class="game-box-text">버블버블</div>
+                </div>
+                <div class="game-box">
+                  <div class="game-box-tetris-game-image game-box-image-set"></div>
+                  <div class="game-box-text">테트리스</div>
+                </div>
+                <div class="game-box">
+                  <div class="game-box-bubble_shooter-game-image game-box-image-set"></div>
+                  <div class="game-box-text">버블슈터</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="third-main-contents-container">
+            <div class="third-main-contents-wrapper"><h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, voluptates!</h1></div>
+            <div class="third-main-contents-wrapper">
+              <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            </div>
+          </article>
+
+          <artivs class="fourth-main-contents-container">
+            <div class="fourth-main-image-wrapper"><img src="img/isaac.jfif" alt="" /></div>
+            <div class="fourth-main-contents-wrapper">
+              <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, doloremque.</h1>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </artivs>
+        </div>
+      </div>
+    </section>
+    <%- include('includes/js') %>
+  </body>
+</html>

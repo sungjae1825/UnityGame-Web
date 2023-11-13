@@ -1,0 +1,4 @@
+#
+frontend 폴더를 backend 안으로 옮긴 이유
+배포시 backend 폴더만 배포돼서 (클라우드타입 사용. 다른 곳은 모름.) 
+frontend 폴더를 사용할 수 없게 돼서 backend 폴더 안으로 옮겼다.

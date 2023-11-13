@@ -1,0 +1,15 @@
+.achievements-box-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.achievements-box {
+  border: 1px solid gray;
+  width: 17%;
+  padding: 10px 30px;
+}
+
+.opacity {
+  opacity: 0.3;
+}

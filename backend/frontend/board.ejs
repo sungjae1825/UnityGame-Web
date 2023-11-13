@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <%- include('includes/style') %>
+    <link rel="stylesheet" href="css/board.css" />
+  </head>
+  <body>
+    <!-- login -->
+    <%- include('includes/login') %>
+
+    <!-- navbar -->
+    <%- include('includes/nav') %>
+
+    <div id="contents-position">
+      <div id="board-container">
+        <button id="write">글 쓰기</button>
+        <div class="board-wrapper">
+          <h1>게시판</h1>
+        </div>
+        <div class="board-title-wrapper">
+          <span class="board-title write-num">번호</span>
+          <span class="board-title write-title">제목</span>
+          <span class="board-title write-writer">글쓴이</span>
+          <span class="board-title write-date">작성일</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <%- include('includes/js') %>
+    <script src="js/write/getWrite.js"></script>
+    <script>
+      const writeBtn = document.getElementById("write");
+
+      writeBtn.addEventListener("click", e => {
+        window.location.href = "/write";
+      });
+    </script>
+  </body>
+</html>

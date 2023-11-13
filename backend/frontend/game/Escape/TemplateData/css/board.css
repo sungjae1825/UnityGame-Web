@@ -1,0 +1,40 @@
+#board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.board-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.board-title-wrapper {
+  width: 80%;
+  border-top: 3px solid tomato;
+  border-bottom: 1px solid tomato;
+  display: flex;
+}
+.board-title {
+  text-align: center;
+  padding: 5px;
+  /* background-color: tomato; */
+  margin-right: 2px;
+  font-weight: 900;
+}
+.board-write-wrapper {
+  width: 80%;
+  border-bottom: 1px solid #c8c8c8;
+  display: flex;
+}
+.board-write {
+  text-align: center;
+  padding: 5px;
+  /* background-color: tomato; */
+  margin-right: 2px;
+}
+
+#write {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}

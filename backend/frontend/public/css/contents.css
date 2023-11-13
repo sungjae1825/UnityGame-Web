@@ -1,0 +1,153 @@
+.main-info .temp-image-wrapper {
+  width: 100%;
+}
+.main-info .temp-image {
+  position: fixed;
+  width: 100%;
+  height: 600px;
+}
+.first-main-contents {
+  height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../img/main.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 0px 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first-main-contents h1 {
+  margin-bottom: 15px;
+  transition: all 1.8s;
+}
+.first-main-contents p {
+  transition: all 1.5s;
+}
+
+/* second-main-contents */
+.second-main-contents {
+  height: 600px;
+  background-color: rgb(189, 245, 245);
+  display: flex;
+  padding: 25px 80px;
+}
+.second-main-contents-text-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second-main-contents-text-wrapper h1 {
+  transition: all 1.5s;
+}
+.second-main-contents-text-wrapper p {
+  font-size: 16px;
+  margin-top: 15px;
+  transition: all 1s;
+}
+.game-box-wrapper-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game-box-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-bottom: 15px;
+}
+.game-box {
+  background-color: bisque;
+  margin-right: 15px;
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+}
+/* game.ejs의 game-box css */
+.game-page-game-box {
+  width: 230px;
+  height: 330px;
+}
+.game-box:hover {
+  scale: 1.05;
+}
+/* second-contents 안에 게임 박스 */
+.game-box {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.game-box-image-set {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.game-box-text {
+  padding: 5px;
+  text-align: center;
+}
+.game-box-packman-game-image {
+  background-image: url("../img/cat-packman.png");
+}
+.game-box-quiz-game-image {
+  background-image: url("../img/quiz.png");
+}
+.game-box-escape-game-image {
+  background-image: url("../img/escape.jfif");
+}
+.game-box-tekken-game-image {
+  background-image: url("../img/tekken.jfif");
+}
+.game-box-tower_defence-game-image {
+  background-image: url("../img/tower-defence.jfif");
+}
+.game-box-bubble_bubble-game-image {
+  background-image: url("../img/game/bubble-bubble.jfif");
+}
+.game-box-tetris-game-image {
+  background-image: url("../img/game/tetris.jfif");
+}
+.game-box-bubble_shooter-game-image {
+  background-image: url("../img/game/bubble-shooter.jfif");
+}
+/* third-contents */
+.third-main-contents-container {
+  padding: 50px 100px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+}
+.third-main-contents-wrapper {
+  flex: 1;
+}
+.third-main-contents-wrapper h1 {
+  transition: all 1.2s;
+}
+
+/* fourth-contents */
+.fourth-main-contents-container {
+  background-color: rgb(85, 85, 85);
+  color: white;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+}
+.fourth-main-image-wrapper {
+  flex: 2;
+}
+.fourth-main-image-wrapper img {
+  width: 650px;
+  height: 300px;
+}
+.fourth-main-contents-wrapper {
+  flex: 1;
+}
+.fourth-main-contents-wrapper h1 {
+  transition: all 1s;
+}
+.fourth-main-contents-wrapper p {
+  transition: all 1.5s;
+}

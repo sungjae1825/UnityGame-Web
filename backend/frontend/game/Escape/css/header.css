@@ -1,0 +1,53 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-right: #505050 1px solid;
+}
+
+.navbar h1 {
+  font-size: 52px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar h1:hover {
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  font-size: 18px;
+  color: black;
+}
+.navbar ul li:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.navbar span {
+  padding: 7px 10px;
+  vertical-align: middle;
+}
+
+.nav-icon-image {
+  width: 25px;
+  height: 25px;
+}
+
+/* 네브바 옆 헤더 */
+.fixed-header {
+  position: fixed;
+  z-index: 1;
+  height: 50px;
+  padding: 15px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: tomato;
+}

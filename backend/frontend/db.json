@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "userId": "admin",
+      "userPw": "admin"
+    },
+    {
+      "userId": "doyeon",
+      "userPw": "doyeon"
+    }
+  ],
+  "index": [
+    {
+      "text": "text",
+      "id": "admin",
+      "pw": "admin"
+    }
+  ]
+}

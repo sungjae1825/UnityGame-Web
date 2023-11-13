@@ -1,0 +1,72 @@
+#login-form-container {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-form-wrapper {
+  background-color: white;
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.login-signup-transform-wrapper {
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+.login-signup-transform {
+  flex: 1;
+  background-color: white;
+  border: none;
+  padding: 15px;
+}
+.login-signup-transform:first-child {
+  border-right: 1px solid gray;
+}
+
+/* login-form input css */
+.login-form {
+  padding: 5px 10px;
+}
+.login-form input {
+  width: 100%;
+  border: 1px solid rgb(197, 197, 197);
+  height: 30px;
+  padding: 0;
+}
+label {
+  font-size: 14px;
+  font-weight: 900;
+}
+.form-input-wrapper {
+  margin-bottom: 15px;
+}
+
+/* 사용자 없을 때 로그인, 로그아웃 css */
+#login {
+  margin-right: 10px;
+}
+#login:hover {
+  cursor: pointer;
+  color: white;
+}
+#signup:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* 로그인 폼 내 로그인, 회원가입 버튼 */
+#loginBtn:hover {
+  cursor: pointer;
+}
+#signupBtn:hover {
+  cursor: pointer;
+}

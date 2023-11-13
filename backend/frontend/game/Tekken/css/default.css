@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.hide {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.display-none {
+  display: none;
+}
+
+.clicked {
+  background-color: tomato;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <%- include('includes/style') %>
+    <link rel="stylesheet" href="css/board.css" />
+    <link rel="stylesheet" href="css/achievements.css" />
+  </head>
+  <body>
+    <!-- login-form -->
+    <%- include('includes/login') %>
+
+    <!-- navbar -->
+    <%- include('includes/nav') %>
+
+    <div id="contents-position">
+      <div id="board-container">
+        <div class="board-wrapper"><h1>업적</h1></div>
+        <div class="achievements-box-container"></div>
+      </div>
+    </div>
+
+    <%- include('includes/js') %>
+    <script src="js/achievements/getAchievements.js"></script>
+    <script src="js/achievements/displayAchievements.js"></script>
+  </body>
+</html>
